@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Service05_Page"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/low_orange">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@color/purple_700">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/backhomebtn"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/arrow_back"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="HOME"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="22dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@color/yellow">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SERVICES"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="0dp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textStyle="bold"/>
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="3dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/black" />
+
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="30dp"
+                        android:layout_margin="0dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardMaxElevation="12dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"
+                                android:layout_marginTop="30dp"
+                                android:src="@drawable/network" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Network Access Control (NAC)"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold"/>
+
+                            <me.biubiubiu.justifytext.library.JustifyTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Network access control, or NAC, solutions support network visibility and access management through policy enforcement on devices and users of corporate networks.     "
+                                android:layout_marginBottom="20dp"
+                                android:textSize="15dp"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:textStyle="normal"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_marginTop="10dp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@color/yellow">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SECURITY CONSULTANCY BLOGS"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="0dp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textStyle="bold"/>
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="3dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/black" />
+
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="30dp"
+                        android:layout_margin="0dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardMaxElevation="12dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"
+                                android:layout_marginTop="30dp"
+                                android:src="@drawable/network_access" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Network Access Control:\nWhat is Network Access Control ?"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold"/>
+
+                            <me.biubiubiu.justifytext.library.JustifyTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Network access control, or NAC, is the set of tools, processes and protocols that govern access to network-connected resources. It is a multifaceted discipline that involves access control solutions for different types of resources, including conventional PCs and servers, and also network routers, IoT devices and more. NAC also applies to data that travels over the network, and the resources it helps to secure may be physical (as in the case of hardware routers or servers) or software-defined, virtual resources (such as a software firewall or a virtual machine). In addition, NAC extends beyond access control narrowly defined to include device identification, threat monitoring and policy-based management of access control for networked resources. It also addresses the security requirements of both wired and wireless networks, although, as we discuss below, NAC considerations sometimes vary between these two contexts.                 "
+                                android:layout_marginBottom="20dp"
+                                android:textSize="15dp"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:textStyle="normal"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_marginTop="10dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="When/why do you need network access control?"
+                                android:paddingStart="30dp"
+                                android:paddingEnd="30dp"
+                                android:layout_marginTop="0dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                android:textStyle="bold"/>
+
+                            <me.biubiubiu.justifytext.library.JustifyTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Unauthorized devices : It’s easy to add devices to a network, but not always so easy to track them. As a result, organizations run a high risk of having unauthorized devices on their networks. Employees may bring personal computers or phones to work and connect them to the network without properly registering them under the terms of your company’s BYOD policy.IoT devices that are connected to your network but not properly managed.\n
+* NAC helps to prevent unauthorized devices from being joined to your network in the first place, while also identifying those that exist so that you can take them offline or make sure they are secured properly.\n
+
+* Outsider access : Large organizations regularly work with contractors, partners and third-party suppliers, and must sometimes grant these external stakeholders access to their network. Without an effective NAC strategy, it’s very difficult to guarantee that these outside devices are properly secured and don’t become a vector for attack into your network. It’s also difficult to ensure that the devices are disconnected when they are no longer needed.\n
+
+* Data privacy laws : Government agencies and industry groups have introduced increasingly strict regulations and data privacy laws that govern which types of data are collected and stored by an organization. Without NAC, companies lack visibility into the types of resources that exist on their network and whether special compliance rules may apply to them."
+                                android:layout_marginBottom="20dp"
+                                android:textSize="15dp"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:textStyle="normal"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_marginTop="10dp" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Copyright © 2023 - Bluechip Technologies Asia"
+                        android:paddingStart="30dp"
+                        android:paddingEnd="30dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/black" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Service04_Page"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/low_orange">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@color/purple_700">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/backhomebtn"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/arrow_back"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="HOME"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="22dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@color/yellow">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SERVICES"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="0dp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textStyle="bold"/>
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="3dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/black" />
+
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="30dp"
+                        android:layout_margin="0dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardMaxElevation="12dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"
+                                android:layout_marginTop="30dp"
+                                android:src="@drawable/lock" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="SIdentity and Access Management"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold"/>
+
+                            <me.biubiubiu.justifytext.library.JustifyTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Identity and access management (IAM) in enterprise IT is about defining and managing the roles and access privileges of individual network users and the circumstances in which users are granted (or denied) those privileges. Those users might be customers or employees. The core objective of IAM systems is one digital identity per individual.                                       "
+                                android:layout_marginBottom="20dp"
+                                android:textSize="15dp"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:textStyle="normal"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_marginTop="10dp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@color/yellow">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="IDENTITY AND ACCESS\nMANAGEMENT BLOGS"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="0dp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textStyle="bold"/>
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="3dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/black" />
+
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="30dp"
+                        android:layout_margin="0dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardMaxElevation="12dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"
+                                android:layout_marginTop="30dp"
+                                android:src="@drawable/lock1" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Identity And Access Management:\nWhat are Identity and Access \nManagement ?"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold"/>
+
+                            <me.biubiubiu.justifytext.library.JustifyTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Identity and access management (IAM) is a set of processes, policies, and tools for defining and managing the roles and access privileges of individual network entities (users and devices) to a variety of cloud and on-premises applications. Users include customers, partners, and employees; devices include computers, smartphones, routers, servers, controllers and sensors. The core objective of IAM systems is one digital identity per individual or item. Once that digital identity has been established, it must be maintained, modified, and monitored throughout each user’s or device’s access lifecycle.                                                         "
+                                android:layout_marginBottom="20dp"
+                                android:textSize="15dp"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:textStyle="normal"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_marginTop="10dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Benefits of Identity And Access Management"
+                                android:paddingStart="30dp"
+                                android:paddingEnd="30dp"
+                                android:layout_marginTop="0dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_marginTop="0dp"
+                                android:layout_marginBottom="20dp"
+                                android:paddingStart="40dp"
+                                android:paddingEnd="40dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="* It encourages the connection between the different parts\n* Identity Management improves productivity\n* Secure your brand at all levels\n* It optimizes user experience"
+                                android:textStyle="normal"
+                                android:textSize="15dp"
+                                android:textColor="@color/black"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Copyright © 2023 - Bluechip Technologies Asia"
+                        android:paddingStart="30dp"
+                        android:paddingEnd="30dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/black" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

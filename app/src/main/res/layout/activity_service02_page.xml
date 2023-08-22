@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Service02_Page"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/low_orange">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@color/purple_700">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/backhomebtn"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/arrow_back"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="HOME"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="22dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@color/yellow">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SERVICES"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="0dp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textStyle="bold"/>
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="3dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/black" />
+
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="30dp"
+                        android:layout_margin="0dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardMaxElevation="12dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"
+                                android:layout_marginTop="30dp"
+                                android:src="@drawable/vulnerability" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Vulnerability Assessment and\nPenetration Testing"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold"/>
+
+                            <me.biubiubiu.justifytext.library.JustifyTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Digital transformation and the evolving threat landscape create constant security challenges for your organisation. Vulnerability Assessment service helps you to respond by identifying, classifying and addressing security risks and providing the ongoing support and guidance to best mitigate them.                                     "
+                                android:layout_marginBottom="20dp"
+                                android:textSize="15dp"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:textStyle="normal"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_marginTop="10dp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@color/yellow">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="VULNERABILITY ASSESSMENT AND\nPENETRATION TESTING BLOGS"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="0dp"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textStyle="bold"/>
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="3dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/black" />
+
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="30dp"
+                        android:layout_margin="0dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardMaxElevation="12dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"
+                                android:layout_marginTop="30dp"
+                                android:src="@drawable/assessment" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Vulnerability Assessment :\nWhat is Vulnerability assessment ?"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold"/>
+
+                            <me.biubiubiu.justifytext.library.JustifyTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Penetration testing is also known as an ethical hacking as “breaking into your own system to see how hard it is to do.” It is a main branch of network security evaluation, which aims at providing analysis to discover the vulnerabilities and security threats in systems and networks. The purpose of penetration testing is to recognize technique of gaining access to a system by using common tools and techniques developed by hackers. After vulnerability assessments, which is are used to identify and inventory various exposures within the organization’s systems. Penetration testing attempts to exploit any one of the vulnerabilities to gain unauthorized access.                  "
+                                android:layout_marginBottom="20dp"
+                                android:textSize="15dp"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:textStyle="normal"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_marginTop="10dp" />
+
+                            <TextView
+                                android:layout_marginTop="0dp"
+                                android:layout_marginBottom="10dp"
+                                android:paddingStart="40dp"
+                                android:paddingEnd="40dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Penetration testing methodology includes three types:\n
+
+* A zero-knowledge Test: Penetration test team has no real information about the target environment.\n
+
+* A full knowledge test: The client organisation provides full information to test team.\n
+
+* A partial knowledge Test: Penetration test team has partial information about the target environment."
+                                android:textStyle="normal"
+                                android:textSize="15dp"
+                                android:textColor="@color/black"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Process of Penetration Testing"
+                                android:paddingStart="30dp"
+                                android:paddingEnd="30dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginBottom="0dp"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                android:textStyle="bold"/>
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"
+                                android:layout_marginTop="0dp"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/penetration" />
+
+                            <TextView
+                                android:layout_marginTop="0dp"
+                                android:layout_marginBottom="20dp"
+                                android:paddingStart="40dp"
+                                android:paddingEnd="40dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="* Scope Test Plan\n* Identify Potential Vulnerabilities\n* Attempt Vulnerability Exploitation\n* Document Findings\n* Provide detailed reporting and Remediation Steps\n* Populate Workflow Management Portal"
+                                android:textStyle="normal"
+                                android:textSize="15dp"
+                                android:textColor="@color/black"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Benefits of Penetration Testing"
+                                android:paddingStart="30dp"
+                                android:paddingEnd="30dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginBottom="0dp"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_marginTop="0dp"
+                                android:layout_marginBottom="20dp"
+                                android:paddingStart="40dp"
+                                android:paddingEnd="40dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="* Test network or system using the tools and techniques that attackers use.\n* Demonstrate at what depth vulnerabilities can be exploited.\n* Validate vulnerabilities.\n* Can provide the realism and evidence needed to address security issue."
+                                android:textStyle="normal"
+                                android:textSize="15dp"
+                                android:textColor="@color/black"/>
+
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Copyright © 2023 - Bluechip Technologies Asia"
+                        android:paddingStart="30dp"
+                        android:paddingEnd="30dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/black" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
